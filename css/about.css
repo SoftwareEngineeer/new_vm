@@ -40,6 +40,33 @@ margin-top:145px;
  }
 /*********************about_end****************/
 
+/* Image wrapper to add border and effects */
+.founder-image-wrapper {
+    position: relative;
+    display: inline-block;
+    padding: 10px; /* Space for the shiny border */
+    border-radius: 50%; /* Circular border */
+    background: linear-gradient(45deg, #ff8c00, #ffd700, #ff8c00); /* Gradient border */
+    background-size: 200% 200%;
+    animation: shiny-border 3s linear infinite; /* Animation for the shiny effect */
+  }
+
+  /* Style for the Founder Image */
+  .founder-image-wrapper img {
+    border-radius: 50%; /* Circular image */
+    display: block;
+  }
+
+  /* Keyframes for the shiny border animation */
+  @keyframes shiny-border {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
 
 
 @media screen and (max-width : 767px){

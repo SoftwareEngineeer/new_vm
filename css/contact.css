@@ -7,8 +7,10 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 */
 /*********************about****************/
 .center_contact{
-background-image: url(../img/31.jpg);
+background-image: url(../img/31.png);
 background-position: center;
+background-size: 100% 100%;
+
 }
 
 /*********************about_end****************/

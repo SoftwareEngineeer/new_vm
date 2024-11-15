@@ -1,10 +1,3 @@
-/*
-Template Name: Academy
-File: Layout CSS
-Author: TemplatesOnWeb
-Author URI: https://www.templateonweb.com/
-Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
-*/
 /*********************center_home****************/
 .center_h {
     background-image: url(../img/1.jpg);
@@ -27,6 +20,80 @@ padding-top:150px;
 .center_h1r .button_1:hover{
 background:#1a2844;
  }
+
+ .carousel-item {
+    height: 100vh;
+}
+
+.slide-content {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.carousel-caption h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+.carousel-caption .button {
+    background-color: #de8329;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+
+.carousel-caption .button:hover {
+    background-color: #c4711d;
+}
+
+.learn_2i .arrow {
+    position: absolute;
+    top: 50%;
+    right: -30px; /* Increase this value if the arrow is too close to the box */
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: #1a2844; /* Make sure this color contrasts with the background */
+  }
+  
+  .learn_2i:last-child .arrow {
+    display: none; /* Hide the arrow for the last item */
+  }
+  
+  
+
 /*********************center_home_end****************/
 
 /*********************course****************/

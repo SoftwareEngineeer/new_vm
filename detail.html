@@ -15,76 +15,60 @@
 </head>
 <body>
 
-<section id="header">
-<nav class="navbar navbar-expand-md navbar-light bg_light p-0" id="navbar_sticky">
-  <div class="container-xl">
-	<h4 class="mb-0">
-		<a class="col_brown" href="index.html">
-			<img src="img/logo.png" alt="Vision Mentors Logo" style="max-height: 90px; position: relative; top: -5px; left: -60px;">
-		</a>
-	</h4>    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	   <ul class="navbar-nav mb-0">
-	    
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a>
-        </li>
-		 
-		<li class="nav-item">
-          <a class="nav-link" href="about.html">About </a>
-        </li>
-
-		<li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Blog
-          </a>
-          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="blog.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Blog</a></li>
-            <li><a class="dropdown-item border-0" href="blog_detail.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Blog Detail</a></li>
-          </ul>
-        </li>
-		
-		<li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Courses
-          </a>
-          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="course.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Courses</a></li>
-            <li><a class="dropdown-item border-0" href="detail.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Course Detail</a></li>
-          </ul>
-        </li>
-		
-		<li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Events
-          </a>
-          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="event.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Events</a></li>
-            <li><a class="dropdown-item border-0" href="event_detail.html"><i class="fa fa-chevron-right font_8 me-1 align-middle"></i> Event Detail</a></li>
-          </ul>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link" href="team.html">Team </a>
-        </li>
-		
-		
-		<li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact </a>
-        </li>
-
-      </ul>
-       <ul class="navbar-nav mb-0 ms-auto">
-		
-		<li class="nav-item">
-          <a class="button_1" href="#">Get a Quote </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</section>
+	<section id="header">
+		<nav class="navbar navbar-expand-md navbar-light bg_light p-0" id="navbar_sticky">
+		  <div class="container-xl d-flex align-items-center">
+			<!-- Logo section -->
+			<a class="col_brown" href="index.html">
+				<img src="img/logo.png" alt="Vision Mentors Logo" style="max-height: 90px; border: 1px;">
+			</a>
+	  
+			<!-- Navbar toggler button for mobile view -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+	  
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="navbarContent">
+			  <ul class="navbar-nav mx-auto"> <!-- mx-auto centers the items -->
+				<li class="nav-item">
+				  <a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="about.html">About</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="course.html">Courses</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="team.html">Team</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="calendarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Calendar
+				  </a>
+				  <ul class="dropdown-menu" aria-labelledby="calendarDropdown">
+					<li><a class="dropdown-item" href="event.html">Calendar</a></li>
+					<li><a class="dropdown-item" href="event_detail.html">Event Detail</a></li>
+				  </ul>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Blog
+				  </a>
+				  <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+					<li><a class="dropdown-item" href="blog.html">Blog</a></li>
+					<li><a class="dropdown-item" href="blog_detail.html">Blog Detail</a></li>
+				  </ul>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+	  </section>
 
 <section id="center" class="center_course_dt">
  <div class="center_om">
@@ -457,31 +441,6 @@
  </div>
 </section>
 
-<div class="main clearfix position-relative">
- <div class="main_1 clearfix position-absolute w-100">
-   <section id="subs">
- <div class="container-xl">
-  <div class="row subs_1 bg_brown pt-4 pb-4 rounded-3 mx-0 px-2">
-   <div class="col-md-6">
-    <div class="subs_1l">
-	 <h3 class="text-white">Subscribe</h3>
-	 <p class="mb-0 text-light">Now go push your own limits and succeed!</p>
-	</div>
-   </div>
-   <div class="col-md-6">
-    <div class="subs_1r">
-	  <div class="input-group p-2 rounded-5 bg-white rounded-3">
-				<input type="text" class="form-control border-0 bg-transparent" placeholder="Enter your email">
-				<span class="input-group-btn">
-					<button class="btn btn-primary bg-transparent border-0 fs-6 col_brown" type="button">
-						<i class="fa fa-long-arrow-right"></i> </button>
-				</span>
-		</div>
-	</div>
-   </div>
-  </div>
- </div>
-</section>
  </div>
  <div class="main_2 clearfix">
 	<section id="footer">
